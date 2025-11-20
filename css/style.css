@@ -38,3 +38,39 @@ ul {
     display: flex;
     justify-content: space-between;
 }
+
+.nav__list {
+    display: flex;
+    align-items: center;
+}
+
+.nav__logo {
+    margin-right: 50px;
+}
+
+.nav__link {
+    padding: 32px 6px;
+    display: block;
+    color: black;
+    font-size: 14px;
+}
+
+
+.nav__link:hover {
+    text-shadow: 1px 1px 1px black;
+}
+
+.nav__right {
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+}
+
+.nav__search input {
+    border: none;
+    outline: none;
+}
+
+.nav__search i {
+    color: rgba(76, 83, 102, 1);
+}
